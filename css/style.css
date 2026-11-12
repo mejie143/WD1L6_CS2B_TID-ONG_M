@@ -1,0 +1,489 @@
+
+/* GENERAL WEBSITE DESIGN */
+
+/* Applies to the whole website */
+body {
+    background-color: #111111;
+    color: #F5F5F5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Smooth scrolling when clicking navigation links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Gold color for highlighted words */
+span {
+    color: #D4AF70;
+}
+
+/* Common spacing for website sections */
+section {
+    padding: 90px 0;
+}
+
+/* Common section headings */
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    background-color: #111111;
+    padding: 18px 0;
+    border-bottom: 1px solid #333333;
+}
+
+/* Website name */
+.navbar-brand {
+    color: #D4AF70 !important;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+/* Navigation links container */
+.navbar-nav {
+    list-style: none;
+}
+
+/* Navigation links */
+.nav-link {
+    color: #F5F5F5 !important;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Changes link color when hovered */
+.nav-link:hover {
+    color: #D4AF70 !important;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    background-color: #111111;
+}
+
+/* Aligns the hero text and picture */
+.hero-section .row {
+    align-items: center;
+}
+
+/* Small gold text */
+.gold-text {
+    color: #D4AF70;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+/* Main introduction heading */
+.hero-section h1 {
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+/* Hero description */
+.hero-description {
+    color: #BBBBBB;
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 550px;
+    margin-bottom: 30px;
+}
+
+/* Gold button */
+.btn-gold {
+    background-color: #D4AF70;
+    color: #111111;
+    border: 1px solid #D4AF70;
+    padding: 12px 22px;
+    font-weight: bold;
+    margin-right: 8px;
+    transition: 0.3s;
+}
+
+/* Gold button hover effect */
+.btn-gold:hover {
+    background-color: transparent;
+    color: #D4AF70;
+    border-color: #D4AF70;
+}
+
+/* Transparent button with gold border */
+.btn-outline-gold {
+    background-color: transparent;
+    color: #D4AF70;
+    border: 1px solid #D4AF70;
+    padding: 12px 22px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Outline button hover effect */
+.btn-outline-gold:hover {
+    background-color: #D4AF70;
+    color: #111111;
+}
+
+/* Developer picture in hero section */
+.profile-picture {
+    width: 160%;
+    max-width: none;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    position: relative;
+    left: -30%;
+    margin-top: -150px;
+}
+
+/* DEVELOPER'S PROFILE SECTION */
+
+.about-section {
+    background-color: #1C1C1C;
+    padding: 70px 0;
+}
+
+/* Positions the photo and personal information */
+.about-section .row {
+    margin-top: 35px !important;
+    align-items: flex-start;
+}
+
+/* Developer picture */
+.about-picture {
+    width: 100%;
+    max-width: 430px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+    transform: scale(1.8);
+}
+
+/* Personal information */
+.about-content {
+    padding-left: 15px;
+}
+
+.about-content h3 {
+    font-size: 27px;
+    margin-bottom: 18px;
+}
+
+.about-content p {
+    color: #BBBBBB;
+    line-height: 1.8;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/* Personal motto box */
+.motto {
+    background-color: #252525;
+    border-left: 4px solid #D4AF70;
+    padding: 20px 25px;
+    margin-top: 20px;
+}
+
+.motto h4 {
+    color: #D4AF70;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.motto p {
+    color: #F5F5F5;
+    font-style: italic;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+/* DESIGN PHILOSOPHY SECTION */
+
+.philosophy-section {
+    background-color: #111111;
+}
+
+/* Philosophy heading */
+.philosophy-content h3 {
+    color: #D4AF70;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+/* Philosophy paragraphs */
+.philosophy-content p {
+    color: #BBBBBB;
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 18px;
+}
+
+/* Design principle cards */
+.principle-card {
+    background-color: #1C1C1C;
+    padding: 30px 25px;
+    height: 100%;
+    border-bottom: 3px solid #D4AF70;
+    transition: 0.3s;
+}
+
+/* Principle card hover effect */
+.principle-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Principle card headings */
+.principle-card h4 {
+    color: #D4AF70;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Principle card descriptions */
+.principle-card p {
+    color: #BBBBBB;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+/* PROJECTS SECTION */
+
+.projects-section {
+    background-color: #1C1C1C;
+}
+
+/* Project section description */
+.projects-section .text-center > p:last-child {
+    color: #BBBBBB;
+    line-height: 1.7;
+}
+
+/* Project card */
+.project-card {
+    background-color: #252525;
+    height: 100%;
+    border: 1px solid #333333;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+/* Project card hover effect */
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #D4AF70;
+}
+
+/* Project screenshot */
+.project-picture {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Project information */
+.project-info {
+    padding: 25px;
+}
+
+/* Project number */
+.project-number {
+    color: #D4AF70;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Project title */
+.project-info h3 {
+    color: #F5F5F5;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+/* Project description */
+.project-info > p:not(.gold-text):not(.technology) {
+    color: #BBBBBB;
+    line-height: 1.7;
+}
+
+/* Project technologies */
+.technology {
+    color: #D4AF70;
+    font-size: 13px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Project buttons */
+.project-info .btn {
+    margin-top: 5px;
+}
+
+/* CONTACT SECTION */
+
+.contact-section {
+    background-color: #111111;
+}
+
+/* Contact section description */
+.contact-section .text-center > p:last-child {
+    color: #BBBBBB;
+    line-height: 1.7;
+}
+
+/* Contact form */
+#contactForm {
+    background-color: #1C1C1C;
+    padding: 30px;
+    border: 1px solid #333333;
+}
+
+/* Form labels */
+.form-label {
+    color: #F5F5F5;
+    font-weight: bold;
+}
+
+/* Form input fields */
+.form-control {
+    background-color: #252525;
+    color: #F5F5F5;
+    border: 1px solid #444444;
+    padding: 12px;
+}
+
+/* Input placeholder color */
+.form-control::placeholder {
+    color: #888888;
+}
+
+/* Input focus effect */
+.form-control:focus {
+    background-color: #252525;
+    color: #F5F5F5;
+    border-color: #D4AF70;
+    box-shadow: none;
+}
+
+/* Contact form feedback */
+#formFeedback {
+    color: #D4AF70;
+    margin-bottom: 0;
+}
+
+/* FOOTER SECTION */
+
+.footer-section {
+    background-color: #1C1C1C;
+    padding: 35px 0;
+    border-top: 1px solid #333333;
+}
+
+/* Footer website name */
+.footer-section h4 {
+    color: #D4AF70;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Footer paragraphs */
+.footer-section p {
+    color: #AAAAAA;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+
+    /* Smaller hero heading */
+    .hero-section h1 {
+        font-size: 32px;
+    }
+
+    /* Centers the hero content */
+    .hero-section {
+        text-align: center;
+        padding-top: 120px;
+    }
+
+    /* Centers the hero description */
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Developer picture on smaller screens */
+    .profile-picture {
+        width: 100%;
+        max-width: 350px;
+        left: 0;
+        margin: -30px auto 0;
+    }
+
+    /* Smaller section headings */
+    h2 {
+        font-size: 29px;
+    }
+
+    /* About picture on smaller screens */
+    .about-picture {
+        max-width: 280px;
+        transform: scale(1.3);
+        margin: 0 auto 25px;
+    }
+
+    /* About content on smaller screens */
+    .about-content {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    /* Adjusts the about section spacing */
+    .about-section .row {
+        margin-top: 25px !important;
+    }
+
+    /* Smaller project screenshots */
+    .project-picture {
+        height: 220px;
+    }
+
+    /* Smaller navigation spacing */
+    .nav-link {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+
+    /* Smaller section spacing */
+    section {
+        padding: 65px 0;
+    }
+
+    /* Contact form spacing */
+    #contactForm {
+        padding: 20px;
+    }
+
+}
